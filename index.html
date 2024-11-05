@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Emil Treesa</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/Emil-908/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/emil-treesa-988388257/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      
+      <a href="mailto:emilraju.22@stvincentngp.edu.in">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Emil 👋</h2>
+        <p>"I'm a Computer Science and Business Systems student 
+          at St. Vincent Pallotti College of Engineering and 
+          Technology. With a creative mindset and a passion for 
+          technology, I'm driven to find innovative solutions 
+          and bring fresh perspectives to my work. I aim to 
+          combine technical skills with business insights to 
+          make a meaningful impact in the tech field."</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-list"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/profile1.jpg" alt="emil profile">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Proficient in C and C++ programming, skilled in SQL database management, 
+        and equipped with a solid foundation in MERN stack development.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/C++-Logo.wine.png" alt="c++ logo">
+          <span>C++</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+        <div class="text">
+          
+          <p>,<h3>1.CO detecting and monitoring app</h3></p>
+        </div>
+
+        <div class="text">
+          " A mobile app for monitoring  carbon monoxide (CO) 
+          levels at home."
+        </div>
+      
+        <div class="text">
+          
+          <p>,<h3>2.Personal Portfolio</h3></p>
+        </div>
+
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      
+      <nav>
+        <div class="right">
+           <a href="https://www.linkedin.com/in/emil-treesa-988388257/" target="_blank" rel="noopener noreferrer">
+             <i class="fa-brands fa-linkedin"></i>
+             <span>LinkedIn</span>
+           </a>
+           
+           <a href="mailto:emilraju.22@stvincentngp.edu.in">
+             <i class="fa-solid fa-envelope"></i>
+             <span>Email</span>
+           </a>
+         </div>
+       </nav> 
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+         <br> <label for="message">Message</label>
+         <br> <textarea id="message" cols="30" rows="10"></textarea>
+
+          <br><button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  
+  </main>
+</body>
+</html>
